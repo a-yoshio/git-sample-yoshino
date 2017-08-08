@@ -9,6 +9,7 @@ public class Car {
 	
 	/**スピード*/
 	private int speed;
+	private int gas;
 	
 	/**
 	 * 走ります.
@@ -27,5 +28,15 @@ public class Car {
 		
 		this.speed = speed;
 	}
+
+	public int getGas() {
+		return gas;
+	}
+
+	public void setGas(int gas) {
+		this.gas = gas;
+	}
+	
+	
 
 }
